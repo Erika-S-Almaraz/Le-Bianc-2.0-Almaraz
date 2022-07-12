@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>LE BIANC</title>
+    <link rel="icon" href="imagenes/b.png">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./archivo.css">
+
 </head>
 <body>
 
     <header>
-      <section class="bg-secondary text-light bg-gradient">
+      <section class="bg-danger text-light bg-gradient">
 
         <div class="container py-5">
             <h1>LE BIANC 2.0</h1>
@@ -55,21 +58,74 @@
 
     <main>
 
+      <section class="registro">
+
+        <H2 class="registro__titulo">Registrate</H2>
+
+        <form class="formulario" action="">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre"/>
+
+            <label for="apellido">Apellido</label>
+            <input type="dato" id="apellido" name="apellido" placeholder="Ingrese su apellido">
+
+            <label for="dni">DNI</label>
+            <input type="du" id="dni" name="dni" placeholder="Ingrese su DNI">
+
+            <label for="correo">Mail</label>
+            <input type="email" id="correo" name="correo" placeholder="Ingrese su Email">
+
+            <label for="pass">Contraseña</label>
+            <input type="password" id="pass" name="password" placeholder="Ingrese su contraseña">
+
+            <label for="domicilio">Dirección</label>
+            <input type="ubicacion" id="domicilio" name="direccion" placeholder="Ingrese su dirección">
+
+            <label for="pais">Pais</label>
+
+            <select name="pais" id="pais">
+                <option value="Argentina">Argentina</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Chile">Chile</option>
+
+            </select>
+
+
+            <fieldset>
+                <legend>Sexo</legend>
+                <label for="admin">Masculino</label>
+                <input type="radio" id="admin" name="grupo">
+                <label for="user">Femenino</label>
+                <input type="radio" id="user" name="grupo">
+            </fieldset>
+
+            <label for="terminos">Acepto términos y condiciones</label>
+            <input type="checkbox" id="terminos">
+
+            <input type="submit" value="Registrarse">
+        </form>
+
+
+
+    </section>
 
     </main>
 
 
     <footer>
 
-      <div class="container mt-5 bg-secondary text-light bg-gradient">
+      <div class="container mt-5 bg-danger text-light bg-gradient">
 
         <div class="row g-6">
 
           <ul>
             <h3>Sobre nosotros</h3>
-            <li>Nos especializamos en la proyección de imagenes en eventos sociales.</li>
+            <li>Nos especializamos en el envío de indumentaria femenina, ayudando a las mujeres sentirse bellas.</li>
             <li>Derechos reservados EA.</li>
             <li>Julio 2022</li>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-facebook"></i>
           </ul>
     
         </div>

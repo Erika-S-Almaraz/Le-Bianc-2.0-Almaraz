@@ -1,0 +1,40 @@
+
+
+.container {
+
+    display: grid;
+    grid-template-columns: (3, 1fr);
+}
+
+
+.registro{
+
+    padding-bottom: 30px;
+    margin: 20px;
+    
+    }
+    
+    .registro__titulo{
+    
+        padding: 20px;
+        margin: 20px;
+    
+    }
+    
+    /*diseño de formulario*/
+    
+    .formulario {
+    
+        width:300px;
+        padding:16px;
+        border-radius:10px;
+        margin:auto;
+        font-size: 15px;
+    
+    }
+
+    .video{
+
+        
+
+    }
