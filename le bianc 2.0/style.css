@@ -1,5 +1,8 @@
 
 
+
+
+
 .container {
 
     display: grid;
@@ -31,10 +34,4 @@
         margin:auto;
         font-size: 15px;
     
-    }
-
-    .video{
-
-        
-
     }

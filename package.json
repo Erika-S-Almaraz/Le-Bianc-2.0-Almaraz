@@ -1,0 +1,15 @@
+{
+  "name": "proyecto-bootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path sass ./sass/index.scss ./css/style.css -w"
+  },
+  "author": "Erika Almaraz",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+
+}
+ 
