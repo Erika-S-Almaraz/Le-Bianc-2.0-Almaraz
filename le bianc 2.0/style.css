@@ -84,6 +84,14 @@
 
     }
 
+
+        .card-body {
+
+            text-decoration: none;
+            border-radius: 10px;
+        }
+
+
         /*Trancisiones*/
 
 

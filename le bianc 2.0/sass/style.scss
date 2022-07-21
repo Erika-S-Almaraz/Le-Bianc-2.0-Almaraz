@@ -1,0 +1,61 @@
+
+
+
+// Extends
+
+.btn-base {
+
+    text-decoration: none;
+    padding: 10px 10px 10px 10px
+    border-radius 10px
+
+}
+
+.btn-vestido {
+
+    @extend .btn-base;
+    background-color: fuchsia;
+}
+
+.btn-camisa {
+
+    @extend .btn-base;
+    background-color: violet;
+
+}
+
+.btn-saco {
+
+    @extend .btn-base;
+    background-color: palevioletred;
+}
+
+//Mixins
+
+@mixin card-as {
+    padding: 30px 30px;
+    border-radius: 10px;
+    border: 2px solid #333;
+    margin-top: 30px;
+
+}
+
+
+    
+.btn-consulta {
+
+    @include card-as;
+}
+
+
+//MAPS
+
+$redesSociales: (
+
+    transition: #55acee
+
+) 
+
+//bucle pendiente
+
+
