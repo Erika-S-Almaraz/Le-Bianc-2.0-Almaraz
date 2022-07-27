@@ -1,6 +1,5 @@
 
 
-
 // Extends
 
 .btn-base {
@@ -50,15 +49,41 @@
     @include card-as;
 }
 
+.asesoramiento {
+
+    margin: 300px;
+
+
+    .asesoramiento-estilo{
+
+        text-align: center;
+    }
+}
+
 
 //MAPS
 
-$redesSociales: (
+$diseñoMedida: (
 
-    transition: #55acee
+    h3: pink
+    p: black
+);
 
-) 
 
-//bucle pendiente
+
+//bucle each
+
+@each $nombre, $color in $diseñoMedida {
+
+.link-#{$nombre} {
+
+    margin: 0.5px;
+    padding: 10px;
+    border-radius: 10px;
+    color: wheat;
+    background-color: azure;
+}
+
+}
 
 
